@@ -12,7 +12,7 @@ namespace LambdaExpression
         {
             List<Person> list = new List<Person>();
             AddPersonDetails(list);
-            //PersonDataManagement.GetRecords(list);
+            PersonDataManagement.GetRecords(list);
             //PersonDataManagement.GetTop2RecordsBasedOnAge(list);
             // PersonDataManagement.GetTenageRecords(list);
             //PersonDataManagement.FindAverage(list);
